@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Langoše — Kontakt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav id="navbar" class="nav-transparent">
+  <a href="index.html" class="nav-logo">Langoše</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Domů</a></li>
+    <li><a href="sluzby.html">Služby</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="o-mne.html">O mně</a></li>
+  </ul>
+  <a href="kontakt.html" class="btn-nav nav-contact active">Kontakt</a>
+  <button id="hamburger" aria-label="Menu">
+    <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+</nav>
+<div id="mobile-menu">
+  <a href="index.html">Domů</a>
+  <a href="sluzby.html">Služby</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="o-mne.html">O mně</a>
+  <a href="kontakt.html">Kontakt</a>
+</div>
+
+<!-- ===================== BANNER ===================== -->
+<div class="banner">
+  <div class="banner-bg"></div>
+  <div class="banner-gradient"></div>
+  <div class="container reveal">
+    <span class="eyebrow">Kontakt</span>
+    <h1>Napište mi.</h1>
+    <p>Jsem připraven na nové výzvy. Napište mi přes formulář nebo využijte přímé kontakty.</p>
+  </div>
+</div>
+
+<!-- ===================== MAIN CONTENT (bg-secondary) ===================== -->
+<div class="section-bg2">
+  <div class="container" style="padding-top:4rem; padding-bottom:4rem;">
+    <div class="contact-grid">
+
+      <!-- LEFT: Contact info -->
+      <div class="contact-info reveal-left">
+        <div class="contact-rows">
+          <a href="mailto:ahoj@langose.cz" class="contact-row">
+            <div class="icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="label">Email</div>
+              <div class="val">ondrajagos2589@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+420123456789" class="contact-row">
+            <div class="icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="label">Discord</div>
+              <div class="val">dusty45</div>
+            </div>
+          </a>
+          <div class="contact-row">
+            <div class="icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="label">Instagram</div>
+              <div class="val">@jagos_7_7</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Availability -->
+        <div class="availability">
+          <span class="dot-green"></span>
+          Přijímám nové projekty
+        </div>
+      </div>
+
+      <!-- RIGHT: Form -->
+      <div class="reveal-right" style="transition-delay:0.15s;">
+
+        <!-- Success state (hidden by default) -->
+        <div class="form-success" id="form-success">
+          <div class="form-success-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div>
+            <h3>Zpráva odeslána</h3>
+            <p>Děkuji za zprávu. Ozvu se vám zpět co nejdříve.</p>
+          </div>
+          <button id="form-reset">
+            Poslat další zprávu
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </div>
+
+        <!-- Form -->
+        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div id="form-error" style="display:none; padding:1rem; border:1px solid hsla(0,72%,55%,0.4); background:hsla(0,72%,55%,0.1); color:#f87171; border-radius:0.75rem; font-size:0.875rem; margin-bottom:1.25rem;">
+            Došlo k chybě. Zkuste to prosím znovu nebo mě kontaktujte napřímo.
+          </div>
+
+          <div class="form-field">
+            <label for="name">Jméno</label>
+            <input type="text" id="name" name="name" placeholder="Jan Novák" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="jan@novak.cz" required />
+          </div>
+          <div class="form-field">
+            <label for="message">Zpráva</label>
+            <textarea id="message" name="message" placeholder="Jak vám mohu pomoci?" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit" id="submit-btn">
+            Odeslat zprávu
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+<script>
+  var form       = document.getElementById('contact-form');
+  var success    = document.getElementById('form-success');
+  var errorBox   = document.getElementById('form-error');
+  var submitBtn  = document.getElementById('submit-btn');
+  var resetBtn   = document.getElementById('form-reset');
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Odesílám…';
+    errorBox.style.display = 'none';
+
+    try {
+      var res = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        form.style.display = 'none';
+        success.classList.add('show');
+      } else {
+        throw new Error();
+      }
+    } catch {
+      errorBox.style.display = 'block';
+    }
+
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = 'Odeslat zprávu <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>';
+  });
+
+  resetBtn.addEventListener('click', function() {
+    form.reset();
+    form.style.display = 'block';
+    success.classList.remove('show');
+  });
+</script>
+</body>
+</html>

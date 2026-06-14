@@ -1,0 +1,80 @@
+{
+  "portfolio": [
+    {
+      "title": "Calandoria",
+      "category": "Webové stránky",
+      "description": "Prezentační web pro projekt 'Calandoria', který se zaměřuje na vzdělávání skrz videohry",
+      "image": "src/calandoria_website.png"
+    }
+  ],
+
+  "sluzby": [
+    {
+      "title": "Grafický design",
+      "description": "Grafická tvorba která prodá vaší identitu",
+      "icon": "palette",
+      "included": [
+        "Plakáty, letáky, brožury",
+        "Příspěvky na sociální sítě",
+        "Náhledové obrázky na YouTube",
+        "Jiné grafiky"
+      ],
+      "price": {
+        "text": "od 300 Kč / kus",
+        "help": "Cena se odvíjí od složitosti a počtu podkladů. Více kusů nabízím ve slevě"
+      }
+    },
+    {
+      "title": "Založení a optimalizace sociálních sítí",
+      "description": "Chcete se zviditelnit na sociálních sítích? Pomohu vám založit, nastavit a optimalizovat všechny níže uvedené sociální sítě.",
+      "icon": "share",
+      "included": [
+        "Založení a optimalizace profilu na Instagramu",
+        "Založení a optimalizace profilu na Facebooku",
+        {
+          "text": "Firemní profil na Googlu",
+          "help": "Firemní profil na Googlu je užitečná služba pro zviditelnění ve vyhledvání a na mapách"
+        }
+      ],
+      "price": "od 1 000 Kč"
+    },
+    {
+      "title": "Tvorba webových stránek",
+      "description": "Rychlé, moderní a responzivní prezentační weby na míru.",
+      "icon": "globe",
+      "included": [
+        "Kompletní návrh prezentační stránky",
+        "Plná responzivita (mobil, tablet, desktop)",
+        {
+          "text": "Funkční kontaktní formulář",
+          "help": "Propojení přes bezplatnou službu Formspree tak, aby vám chodily zprávy ze stránky přímo do emailu"
+        },
+        "Doporučení a porovnaní vhodného hostingu"
+      ],
+      "price": "od 6 000 Kč"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Jak dlouho trvá typický projekt?",
+      "answer": "Záleží na rozsahu, ale většina projektů trvá 2–6 týdnů. Záleží také na aktuálním počtu zakázek."
+    },
+    {
+      "question": "Jak vás mohu kontaktovat?",
+      "answer": "Využijte kontaktní formulář na mé stránce 'Kontakt' nebo mi napište přímo na email. K dizpozici jsem také na svém Instagramu nebo Discordu."
+    },
+    {
+      "question": "Jak dlouho trvá odpověď?",
+      "answer": "Na dotazy se snažím odpovědět co nejdříve, obvykle do 24–48 hodin. V případě většího množství zakázek může být odpověď delší, ale vždy se snažím být co nejvíce dostupný. Na Instagramu a Discordu obvykle odpovídám rychleji."
+    },
+    {
+      "question": "Jaké jsou vaše platební podmínky?",
+      "answer": "Platí se předem, popřípadě je možnost domluvy."
+    },
+    {
+      "question": "Co když budu s výsledkem nespokojený?",
+      "answer": "Postup tvorby s vámi průběžně sdílím, takže máte možnost průběžně ovlivňovat výsledek. Po dokončení projektu nabízím možnost úprav, abyste byli s výsledkem spokojení."
+    }
+  ]
+}

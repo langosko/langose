@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Langoše — Freelancer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-home">
+
+<!-- ===================== NAVBAR ===================== -->
+<nav id="navbar" class="nav-transparent">
+  <a href="index.html" class="nav-logo">Langoše</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Domů</a></li>
+    <li><a href="sluzby.html">Služby</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="o-mne.html">O mně</a></li>
+  </ul>
+  <a href="kontakt.html" class="btn-nav nav-contact">Kontakt</a>
+  <button id="hamburger" aria-label="Menu">
+    <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+</nav>
+<div id="mobile-menu">
+  <a href="index.html">Domů</a>
+  <a href="sluzby.html">Služby</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="o-mne.html">O mně</a>
+  <a href="kontakt.html" class="btn-nav">Kontakt</a>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<div id="hero">
+  <div id="hero-bg"></div>
+  <div id="hero-overlay"></div>
+  <div id="hero-content">
+    <div style="max-width: 60%;">
+      <div class="hero-word-wrap hero-line" style="animation-delay:0.1s;">
+        <span class="hero-word" id="hero-word">Grafika</span>
+      </div>
+      <div class="hero-static hero-line" style="animation-delay:0.25s;">na míru</div>
+      <p class="hero-sub hero-line" style="animation-delay:0.45s;">Profesionální řešení pro vaše potřeby.</p>
+    </div>
+  </div>
+  <div class="hero-chevron">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+</div>
+
+<!-- ===================== SECTION 1: About + Values (bg-background) ===================== -->
+<div class="section-bg">
+  <div class="section-inner">
+    <div class="container">
+      <div class="home-s1-grid reveal-left">
+        <div class="home-s1-text">
+          <span class="eyebrow">O mně</span>
+          <h2>Individuální přístup</h2>
+          <p>Jsem nezávislý tvůrce, který spojuje grafický design, strategii sociálních sítí a tvorbu moderních webů do jednoho soudržného celku. Zakládám si na individuálním přístupu, komunikaci a odhození zbytečných formalit.</p>
+          <a href="o-mne.html" class="link-arrow">
+            Poznejte mě blíže
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="value-cards">
+          <div class="value-card">
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div>
+              <h4>Personalizace</h4>
+              <p>Každý projekt je unikátní — řešení šitá přesně na míru vašich potřeb.</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <div>
+              <h4>Lidský přístup</h4>
+              <p>Komunikace bez zbytečné formality — vždy víte, kde projekt stojí.</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <div>
+              <h4>Kvalita &amp; Kreativita</h4>
+              <p>Pečlivost v každém detailu a svěží pohled na každou výzvu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SECTION 2: Services (bg-secondary) ===================== -->
+<div class="section-bg2">
+  <div class="section-inner">
+    <div class="container">
+      <div class="home-s2-grid reveal-right">
+        <div id="service-row-list" class="service-row-list"></div>
+        <div class="home-s2-text" style="padding-left: 3rem;">
+          <span class="eyebrow">Služby</span>
+          <h2>Vše pod jednou střechou.</h2>
+          <p>Od návrhu loga přes budování komunity až po spuštění vašeho nového webu. Nabízím komplexní přístup.</p>
+          <a href="sluzby.html" class="link-arrow">
+            Prohlédnout služby
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SECTION 3: Portfolio preview (bg-background) ===================== -->
+<div class="section-bg">
+  <div class="section-inner">
+    <div class="container">
+      <div class="portfolio-preview-header reveal">
+        <div>
+          <span class="eyebrow">Portfolio</span>
+          <h2>Vybrané práce</h2>
+        </div>
+        <a href="portfolio.html" class="link-arrow">
+          Zobrazit vše
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div id="portfolio-preview-grid" class="portfolio-grid reveal" style="transition-delay:0.15s;"></div>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+<script>
+  // Hero rotating words
+  const words  = ['Grafika', 'Sociální sítě', 'Webové stránky'];
+  const wordEl = document.getElementById('hero-word');
+  const heroBg = document.getElementById('hero-bg');
+  const heroContent = document.getElementById('hero-content');
+  let idx = 0;
+
+  setInterval(function() {
+    wordEl.classList.add('fading');
+    setTimeout(function() {
+      idx = (idx + 1) % words.length;
+      wordEl.textContent = words[idx];
+      wordEl.classList.remove('fading');
+    }, 350);
+  }, 3000);
+
+  // Parallax
+  window.addEventListener('scroll', function() {
+    const y = window.scrollY;
+    const scale = Math.min(1 + y * 0.0005, 1.15);
+    const blur  = Math.min(y * 0.02, 10);
+    heroBg.style.transform = 'scale(' + scale + ')';
+    heroBg.style.filter    = 'blur(' + blur + 'px)';
+    heroContent.style.opacity = String(Math.max(1 - y * 0.002, 0));
+  }, { passive: true });
+</script>
+</body>
+</html>
